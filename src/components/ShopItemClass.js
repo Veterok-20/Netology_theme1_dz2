@@ -1,5 +1,5 @@
 import React from "react";
-
+import PropTypes from 'prop-types';
 
 export default class ShopItemClass extends React.Component {
     
@@ -21,4 +21,8 @@ render () {
 </div>
     )  
 }
+}
+
+ShopItemClass.propTypes={
+    props: PropTypes.object.isRequired,
 }
