@@ -24,5 +24,5 @@ render () {
 }
 
 ShopItemClass.propTypes={
-    props: PropTypes.object.isRequired,
+    item: PropTypes.object.isRequired,
 }
